@@ -361,6 +361,16 @@ strong {
   transform: scale(1.012);
 }
 
+.project-image--dashboard {
+  aspect-ratio: 16 / 9;
+}
+
+.project-image--dashboard img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
 .project h3 {
   margin: -0.15em 0 0.4rem;
   font-size: clamp(2rem, 3.6vw, 3.5rem);
